@@ -1,0 +1,51 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #333;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #999;
+}
+
+section {
+    min-height: 600px;
+}
+
+
+.porpolio {
+    background-color: #eee;
+}
+
+.contact {
+    min-height: 800px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+    height: 120px;
+    color: white;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+footer p i {
+    color: blue;
+}
