@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: gray;
+    
+}
+
+.container-utama {
+    width: 795px;
+    background-color: white;
+    height: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-kop {
+    width: 95%;
+    margin: 30px auto;
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+}
+
+.logo img{
+    width: 73px;
+    height: 73px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+.judul-utama {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.judul-satu {
+    font-size: .5rem;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    position: relative;
+    top: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.judul-dua p {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: crimson;
+    margin-right: 20px;
+    
+}
+
+
+.judul-tiga p {
+    font-size: 2rem;
+    color: blue;
+    position: relative;
+    bottom: 4px;
+    letter-spacing: 6px;
+    right: 8px;
+}
+
+.judul-empat {
+    position: relative;
+    left: 184px;
+    top: -25px;
+    font-size: 1rem;
+    color: green;
+    letter-spacing: 4px;
+    position: relative;
+    bottom: 5px;
+}
+
+.alamat p {
+    font-size: 10px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #585656;
+    margin-top: 3px;
+    position: relative;
+    top: 8px;
+}
+
+
+.sk-utama {
+    width: 700px;
+    height: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.sk-satu {
+    width: 55%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.sk-dua {
+    width: 45%;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.surat {
+    width: 795px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.surat  .w {
+    width: 100%;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.surat .e {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+}
