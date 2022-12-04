@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c086bf1f45.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar</title>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+         $(document).ready(function () {
+        $(".hiji").click(function () {
+          $("#side1").slideToggle("slow");
+        });
+      });
+         $(document).ready(function () {
+        $(".dua").click(function () {
+          $("#side2").slideToggle("slow");
+        });
+      });
+         $(document).ready(function () {
+        $(".tilu").click(function () {
+          $("#side3").slideToggle("slow");
+        });
+      });
+         $(document).ready(function () {
+        $(".opat").click(function () {
+          $("#side4").slideToggle("slow");
+        });
+      });
+         $(document).ready(function () {
+        $(".lima").click(function () {
+          $("#side5").slideToggle("slow");
+        });
+      });
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <ul class="menu">
+                    <li class="logo hiji"><a href="#logo">IBNU SINA SALMAN SYAM 41216002</a></li>
+                    <li class="item active-link dua"><a href="#home">Home</a></li>
+                    <li class="item tilu"><a href="#about">About</a></li>
+                    <li class="item opat"><a href="#tugas">Tugas</a></li>
+                    <li class="item lima"><a href="#contact">contact</a></li>
+                    <li class="item "><a href="#">Gallery</a></li>
+
+                    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+      <div id="side1">
+            <p id="logo" class="conten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p>
+        </div>
+        <div id="side2">
+            <p id="home" class="conten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p>
+        </div>
+        <div id="side3">
+            <p id="about" class="conten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p>
+        </div>
+        <div id="side4">
+            <p id="tugas" class="conten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p>
+        </div>
+        <div id="side5">
+            <p id="contact" class="conten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p>
+        </div>
+        
+        <!-- <p id="profile" class="conten panel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p>
+        <p id="profile" class="conten panel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem laborum ex aut dolorem velit ab vitae hic! Amet, incidunt.</p> -->
+    <script src="app.js"></script>
+</body>
+</html>
